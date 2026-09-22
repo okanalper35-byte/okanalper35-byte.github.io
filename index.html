@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tender & Ex & AI — yazılım, eğitim ve profesyonel dijital çözümler. Yeni paketler çok yakında.">
+<title>Tender & Ex & AI | Çok Yakında</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05070d;--bg2:#0b101b;--card:#0d1421;--text:#f5f7fb;--muted:#8995aa;--gold:#d5a84f;--gold2:#f1d48c;--blue:#6577ff;--cyan:#42dcf5;--line:rgba(255,255,255,.085);--green:#53dfa1}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:radial-gradient(circle at 75% 0%,rgba(101,119,255,.16),transparent 28%),radial-gradient(circle at 15% 15%,rgba(213,168,79,.08),transparent 26%),var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{text-decoration:none;color:inherit}.wrap{width:min(1160px,92%);margin:auto}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:58px 58px;mask-image:linear-gradient(to bottom,#000,transparent 75%);z-index:-1}
+nav{height:78px;border-bottom:1px solid var(--line);display:flex;align-items:center;position:sticky;top:0;z-index:50;background:rgba(5,7,13,.76);backdrop-filter:blur(18px)}
+.nav-inner{width:100%;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk";font-weight:700;font-size:18px;letter-spacing:-.5px}
+.brandmark{width:39px;height:39px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),#fff0bd 48%,var(--blue));color:#090b12;font-weight:800;box-shadow:0 0 32px rgba(213,168,79,.2)}
+.links{display:flex;gap:26px;color:#aeb8ca;font-size:13px}.links a:hover{color:white}.navbtn{padding:10px 16px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.035);font-size:12px}
+.hero{min-height:650px;display:flex;align-items:center;text-align:center;padding:82px 0 85px;position:relative}.hero:after{content:"";position:absolute;width:520px;height:220px;background:rgba(101,119,255,.11);filter:blur(110px);left:50%;top:28%;transform:translateX(-50%);z-index:-1}
+.eyebrow{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold2);font-weight:800}
+.hero h1{font-family:"Space Grotesk";font-size:clamp(45px,7vw,82px);line-height:1.01;letter-spacing:-4px;max-width:930px;margin:18px auto 20px}
+.hero h1 span{display:block;background:linear-gradient(90deg,#fff 10%,#f0d48e 45%,#91a0ff 82%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:15px;max-width:620px;margin:auto}
+.launch{display:inline-flex;align-items:center;gap:9px;margin-top:30px;padding:12px 17px;border:1px solid rgba(213,168,79,.25);background:rgba(213,168,79,.055);border-radius:999px;color:#e7d29f;font-size:12px;font-weight:600}.led{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 13px var(--green)}
+.actions{display:flex;justify-content:center;gap:11px;margin-top:28px;flex-wrap:wrap}.btn{padding:13px 20px;border-radius:11px;font-size:13px;font-weight:700}.primary{background:linear-gradient(135deg,var(--gold),#f0cb77);color:#111;box-shadow:0 10px 35px rgba(213,168,79,.18)}.secondary{border:1px solid var(--line);background:rgba(255,255,255,.035)}
+section{padding:82px 0}.sectionhead{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}.sectionhead h2{font-family:"Space Grotesk";font-size:35px;letter-spacing:-1.5px;margin-top:6px}.sectionhead p{color:var(--muted);max-width:490px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{position:relative;border:1px solid var(--line);border-radius:20px;padding:25px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.018));overflow:hidden;transition:.25s}.card:hover{transform:translateY(-4px);border-color:rgba(213,168,79,.25)}.card:before{content:"";position:absolute;width:110px;height:110px;border-radius:50%;background:var(--blue);filter:blur(65px);opacity:.10;right:-40px;top:-45px}.icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.045);border:1px solid var(--line);font-size:21px;margin-bottom:18px}.tag{display:inline-block;font-size:9px;letter-spacing:1.5px;color:#d9c184;background:rgba(213,168,79,.08);border:1px solid rgba(213,168,79,.12);padding:5px 8px;border-radius:6px;margin-bottom:13px}.card h3{font-family:"Space Grotesk";font-size:19px}.card p{font-size:12.5px;color:var(--muted);margin:9px 0 20px;min-height:60px}.cardfoot{border-top:1px solid var(--line);padding-top:15px;display:flex;justify-content:space-between;align-items:center}.soon{font-size:11px;color:#b9c1d0}.detail{font-size:11px;color:#d9bc71;font-weight:700}
+.feature{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}.featurebox,.panel{border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.025)}.featurebox{padding:34px;background:linear-gradient(135deg,rgba(213,168,79,.08),rgba(101,119,255,.07))}.featurebox h2{font-family:"Space Grotesk";font-size:34px;line-height:1.12;letter-spacing:-1.4px;margin:9px 0 13px}.featurebox p{color:var(--muted);font-size:13px}.checks{display:grid;gap:12px;margin-top:22px}.checks div{font-size:12.5px}.checks span{color:var(--green);margin-right:8px}.panel{padding:18px;display:grid;gap:10px}.row{display:flex;gap:13px;align-items:center;padding:14px;border:1px solid var(--line);border-radius:13px;background:rgba(0,0,0,.12)}.row i{font-style:normal;font-size:19px}.row b{font-size:12.5px}.row small{display:block;color:var(--muted);font-size:10.5px;margin-top:2px}
+.notice{text-align:center;margin-top:45px;padding:15px 20px;border:1px solid rgba(255,255,255,.06);border-radius:13px;color:#79869b;font-size:10.5px}.notice strong{color:#adb8ca;font-weight:600}
+.contact{border:1px solid var(--line);border-radius:25px;text-align:center;padding:62px 20px;background:radial-gradient(circle at 50% 0%,rgba(101,119,255,.12),transparent 55%),rgba(255,255,255,.02)}.contact h2{font-family:"Space Grotesk";font-size:38px;letter-spacing:-1.6px}.contact p{color:var(--muted);max-width:570px;margin:9px auto 24px;font-size:13px}.email{display:block;margin-top:13px;color:#9da9bd;font-size:11px}
+footer{border-top:1px solid var(--line);padding:28px 0;color:#707d92;font-size:10.5px;display:flex;justify-content:space-between}
+@media(max-width:800px){.links{display:none}.grid,.feature{grid-template-columns:1fr}.sectionhead{display:block}.sectionhead p{margin-top:8px}.hero h1{letter-spacing:-2.5px}.hero{min-height:600px;padding-top:65px}.navbtn{display:none}footer{flex-direction:column;gap:8px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav-inner">
+<a href="#" class="brand"><span class="brandmark">T</span><span>Tender &amp; Ex &amp; AI</span></a>
+<div class="links"><a href="#paketler">Paketler</a><a href="#egitimler">Eğitimler</a><a href="#yazilim">Yazılımlar</a><a href="#hakkinda">Hakkımızda</a></div>
+<a class="navbtn" href="#iletisim">İletişim →</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">TENDER &amp; EX &amp; AI</div>
+<h1>Çok yakında.<span>Yeni paketler aktif olacak.</span></h1>
+<p>Yazılım, eğitim ve profesyonel dijital çözümler tek çatı altında buluşuyor. Hazırladığımız yeni paketlerle çok daha fazlasını sunmaya hazırlanıyoruz.</p>
+<div class="launch"><span class="led"></span> Paketler hazırlanıyor • Çok yakında hizmetinizde</div>
+<div class="actions"><a class="btn primary" href="#paketler">Neler Gelecek? ↓</a><a class="btn secondary" href="#iletisim">Bilgi Al</a></div>
+</div></header>
+
+<section id="paketler"><div class="wrap">
+<div class="sectionhead"><div><div class="eyebrow">Yakında</div><h2>Paketlerimiz</h2></div><p>İhtiyacınıza göre seçebileceğiniz yazılım ve eğitim paketleri üzerinde çalışıyoruz.</p></div>
+<div class="grid">
+<article class="card"><div class="icon">📊</div><span class="tag">İŞ &amp; VERİMLİLİK</span><h3>Excel Eğitim Paketi</h3><p>Microsoft Excel'i iş hayatında etkin kullanmak isteyenler için online ve yüz yüze eğitim seçenekleri.</p><div class="cardfoot"><span class="soon">Yakında aktif</span><span class="detail">Detaylar geliyor</span></div></article>
+<article class="card"><div class="icon">🏛️</div><span class="tag">KAMU İHALE</span><h3>Kamu İhale Eğitim Paketi</h3><p>Kamu ihale süreçlerini öğrenmek isteyenler için online eğitim ve uygulamaya yönelik içerikler.</p><div class="cardfoot"><span class="soon">Yakında aktif</span><span class="detail">Detaylar geliyor</span></div></article>
+<article class="card"><div class="icon">💻</div><span class="tag">YAZILIM</span><h3>İhale Takip Paketi</h3><p>İhale takibi, kayıt yönetimi, fiyat analizi ve iş akışlarını kolaylaştırmaya yönelik yazılım çözümleri.</p><div class="cardfoot"><span class="soon">Yakında aktif</span><span class="detail">Detaylar geliyor</span></div></article>
+<article class="card"><div class="icon">📄</div><span class="tag">PDF</span><h3>PDF Çözümleri Paketi</h3><p>PDF düzenleme, birleştirme ve PDF'den Word'e dönüşüm gibi günlük işlemleri kolaylaştıran araçlar.</p><div class="cardfoot"><span class="soon">Yakında aktif</span><span class="detail">Detaylar geliyor</span></div></article>
+<article class="card"><div class="icon">⚙️</div><span class="tag">PROFESYONEL</span><h3>Verimlilik Araçları</h3><p>Tekrarlanan masaüstü işlerini azaltmak ve günlük çalışma düzenini hızlandırmak için geliştirilen yardımcı araçlar.</p><div class="cardfoot"><span class="soon">Yakında aktif</span><span class="detail">Detaylar geliyor</span></div></article>
+<article class="card"><div class="icon">✨</div><span class="tag">YENİ</span><h3>Yeni Paketler</h3><p>Henüz açıklamadığımız yeni hizmet ve ürün paketleri üzerinde çalışıyoruz. Sürprizler yakında.</p><div class="cardfoot"><span class="soon">Beklemede</span><span class="detail">Takipte kalın</span></div></article>
+</div>
+<div class="notice">Paket satın alımlarında, talep edilmesi halinde <strong>fatura düzenlenebilir.</strong></div>
+</div></section>
+
+<section id="egitimler"><div class="wrap"><div class="feature">
+<div class="featurebox"><div class="eyebrow">Eğitim</div><h2>Bilgiyi doğrudan işe dönüştürün.</h2><p>Eğitimler, teoriden çok gerçek kullanım ve uygulama mantığıyla hazırlanıyor.</p><div class="checks"><div><span>✓</span> Microsoft Excel — online eğitim</div><div><span>✓</span> Microsoft Excel — yüz yüze eğitim</div><div><span>✓</span> Kamu İhale — online eğitim</div><div><span>✓</span> Yeni eğitim paketleri — yakında</div></div></div>
+<div class="panel">
+<div class="row"><i>📈</i><div><b>Microsoft Excel</b><small>İş hayatında kullanılabilecek pratik Excel eğitimi.</small></div></div>
+<div class="row"><i>🧑‍💻</i><div><b>Online Eğitim</b><small>Bulunduğunuz yerden katılabileceğiniz eğitimler.</small></div></div>
+<div class="row"><i>🤝</i><div><b>Yüz Yüze Eğitim</b><small>İhtiyaca göre planlanabilen eğitim seçeneği.</small></div></div>
+<div class="row"><i>🏛️</i><div><b>Kamu İhale</b><small>Online kamu ihale eğitim programı.</small></div></div>
+</div></div></div></section>
+
+<section id="yazilim"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">Yazılım</div><h2>Ürünler de yolda.</h2></div><p>İş süreçlerini kolaylaştıracak masaüstü yazılımlar ve yardımcı araçlar hazırlanıyor.</p></div>
+<div class="grid">
+<article class="card"><div class="icon">📋</div><span class="tag">İHALE</span><h3>İhale Takip &amp; Analiz</h3><p>İhaleleri kaydetme, takip etme, fiyat ve doküman yönetimi gibi işlevleri tek yerde toplamak için tasarlanıyor.</p><div class="cardfoot"><span class="soon">Çok yakında</span><span class="detail">Hazırlanıyor</span></div></article>
+<article class="card"><div class="icon">📝</div><span class="tag">PDF</span><h3>PDF Araçları</h3><p>PDF düzenleme, birleştirme ve Word dönüşümü gibi işlemleri kolaylaştıran araçlar.</p><div class="cardfoot"><span class="soon">Çok yakında</span><span class="detail">Hazırlanıyor</span></div></article>
+<article class="card"><div class="icon">🚀</div><span class="tag">DAHA FAZLASI</span><h3>Yeni Dijital Çözümler</h3><p>Yeni yazılım ve hizmet paketleri geliştiriliyor. Siteyi takip ederek ilk haberdar olanlardan olun.</p><div class="cardfoot"><span class="soon">Yakında</span><span class="detail">Sürprizler var</span></div></article>
+</div></div></section>
+
+<section id="hakkinda"><div class="wrap"><div class="feature">
+<div class="featurebox"><div class="eyebrow">Hakkımızda</div><h2>Teknoloji. Eğitim. Çözüm.</h2><p>Tender &amp; Ex &amp; AI; yazılım geliştirme ve profesyonel eğitimleri bir araya getirerek kullanıcıların günlük işlerini daha kolay, hızlı ve verimli hale getirmeyi amaçlar.</p></div>
+<div class="panel"><div class="row"><i>💡</i><div><b>Pratik yaklaşım</b><small>Gerçek ihtiyaçlara göre geliştirilen çözümler.</small></div></div><div class="row"><i>🎯</i><div><b>Odaklı hizmet</b><small>Yazılım ve eğitim tek bir platformda.</small></div></div><div class="row"><i>🔧</i><div><b>Sürekli geliştirme</b><small>Yeni paketler ve özellikler zamanla eklenecek.</small></div></div></div>
+</div></div></section>
+
+<section id="iletisim"><div class="wrap"><div class="contact">
+<div class="eyebrow">İletişim</div><h2>İlk siz haberdar olun.</h2><p>Paketler, eğitimler, yazılımlar veya özel çözümler hakkında bilgi almak için bizimle iletişime geçebilirsiniz.</p>
+<a class="btn primary" href="mailto:okanalper35@gmail.com">İletişime Geç →</a>
+<span class="email">okanalper35@gmail.com</span>
+</div></div></section>
+
+<footer class="wrap"><span>© 2026 Tender &amp; Ex &amp; AI. Tüm hakları saklıdır.</span><span>Yazılım • Eğitim • Dijital Çözümler</span></footer>
+</body>
+</html>
